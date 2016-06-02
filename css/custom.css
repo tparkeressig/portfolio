@@ -35,15 +35,20 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.asecret {
+    color: #FFFFFF;
+}
+
 .social-links {
-    padding: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
 }
 
 .social-icon {
     max-width: 40px;
-    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .credits {
-    padding: 15px;
+    padding-bottom: 15px;
 }
