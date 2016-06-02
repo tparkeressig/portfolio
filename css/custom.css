@@ -1,50 +1,48 @@
-    /*
- * Hey! Funny seeing you here!
- * Wait, why are you looking at my CSS? Geez...
- */
-    /* Layout tweaks */
-    
-    body {
-        background: #eee;
-    }
-    
-    .row {
-        padding-bottom: 10px;
-        padding-top: 10px;
-        margin-bottom: 10px;
-        background: #f7f7f7;
-        /* Setting border roundness */
-        border-radius: 10px;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px
-    }
-    
-    .cta-img {
-        /* Nothing in here right now... */
-    }
-    /* Navagation tweaks */
-    
-    .navbar-inverse {
-        background: #2E2F31;
-        border: 0;
-    }
-    
-    .dropdown-menu {
-        background: #2E2F31;
-    }
-    
-    .navbar-inverse .navbar-nav li a {
-        color: #f7f7f7;
-        font-size: 14px;
-    }
-    
-    .dropdown-menu li a:hover {
-        color: #2E2F31;
-        background: #f7f7f7;
-    }
-    /*
-.navbar-inverse .navbar-nav li a:hover {
-    color: #2E2F31;
-    background: #f7f7f7;
+body {
+    background: #FFF8EE;
 }
-*/
+
+.navbar-default {
+    background-color: #FFFFFF;
+    box-shadow: 0 0px 1px rgba(0, 0, 0, 0.16), 0 1px 9px rgba(0, 0, 0, 0.23);
+}
+
+
+/* The below finally allowed me to give my "logo" (brand) enough space in the nav bar.
+    I may end up replacing it with actual text, but not now, not on this deadline! */
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 10px 15px;
+}
+
+.thumbnail {
+    padding-bottom: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 4px 9px rgba(0, 0, 0, 0.23);
+}
+
+
+/*change all the below font and line stuff later */
+
+.cardtitle {
+    padding: 10px 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.social-links {
+    padding: 15px;
+}
+
+.social-icon {
+    max-width: 40px;
+    margin-right: 5px;
+}
+
+.credits {
+    padding: 15px;
+}
