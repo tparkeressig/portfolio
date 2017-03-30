@@ -30,13 +30,12 @@ body {
   border-color: #AFD491;
 }
 
-.thumbnail .caption {}
-
 .thumbnail h3 {
   margin-top: 0px;
+  text-decoration: none;
 }
 
-.thumbnail a {
+a:hover .thumbnail {
   text-decoration: none;
 }
 
